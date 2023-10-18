@@ -97,4 +97,5 @@ export const skillsData = [
   "Tailwind",
   "Redux",
   "Framer Motion",
+  "Material UI",
 ] as const;
