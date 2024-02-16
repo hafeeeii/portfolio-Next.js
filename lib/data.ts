@@ -45,41 +45,43 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Filmverse",
+    title: "Dressify",
     description:
-      "Filmverse is a React-based movie website that allows users to search for movies , TV show and bookmark their favorite movies and TV shows.",
+      "Dressify is a cutting-edge ecommerce platform crafted with Next.js. Seamlessly blending performance, scalability, and stunning user experiences to redefine online shopping.",
     tags: [
-      "React",
-      "TMDB API",
+      "Next.js",
+      "Strapi CMS",
       "Tailwind",
-      "Firebase",
-      "Redux",
+      "kinde",
+      "Redux Toolkit",
       "Framer Motion",
+      "TypeScript",
+
     ],
     imageUrl: filmverse,
     link: "https://filmverse-ink.vercel.app/",
   },
   {
-    title: "YoutubeClone",
+    title: "Filmverse",
     description:
-      "A YouTube clone app with a modern UI. It have features of the original YouTube app, such as the ability to search for videos.",
-    tags: ["React", "Rapid API", "Material UI"],
-    imageUrl: youtubeCloneImg,
-    link: "https://youtube-clone-hafis.netlify.app/",
+      "Filmverse is a React-based movie website that allows users to search for movies , TV show and bookmark their favorite movies and TV shows.",
+    tags: [
+      "React.js",
+      "TMDB API",
+      "Tailwind",
+      "Firebase",
+      "Redux Toolkit",
+      "Framer Motion",
+    ],
+    imageUrl: filmverse,
+    link: "https://filmverse-ink.vercel.app/",
   },
-  {
-    title: "Delicious",
-    description:
-      "Delicious is a food recipe app that contains a wide variety of recipes. the app includes images of each recipe to help you get inspired.",
-    tags: ["React", "Material UI", "Spoonacular API"],
-    imageUrl: foodRecipeApp,
-    link: "https://food-recipeee.netlify.app/",
-  },
+
   {
     title: "Fitto",
     description:
       "Fitto is a fitness app that provides users with access to thousands of exercises, video demonstrations, and personalized training plans.",
-    tags: ["React", "Material UI", "Rapid API"],
+    tags: ["React.js", "Material UI", "Rapid API"],
     imageUrl: fitto,
     link: "https://fitto-fitness.netlify.app/",
   },
@@ -92,9 +94,6 @@ export const skillsData = [
   "TypeScript",
   "React.js",
   "Next.js",
-  "Node.js",
-  'Express.js',
-  'MongoDb',
   "Git",
   "Tailwind",
   "Redux",
