@@ -45,7 +45,7 @@ export const projectsData = [
   {
     title: "Dressify",
     description:
-      "Dressify is a ecommerce platform crafted with Next.js. Seamlessly blending performance and stunning user experiences to redefine online shopping.",
+      "Dressify is a Next.js-powered ecommerce redefining online shopping with seamless performance and style",
     tags: [
       "Next.js",
       "Strapi CMS",
@@ -61,7 +61,7 @@ export const projectsData = [
   {
     title: "Filmverse",
     description:
-      "Filmverse is a React-based movie app allows users to search for movies , TV show and bookmark their favorite movies and TV shows.",
+      "Filmverse is a React movie app for searching, bookmarking movies and TV shows.",
     tags: [
       "React.js",
       "TMDB API",
