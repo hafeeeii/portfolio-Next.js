@@ -2,6 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import fitto from "@/public/fitto.png";
 import filmverse from "@/public/filmverse.png";
+import dressify from '@/public/dressify.png'
 
 export const links = [
   {
@@ -55,8 +56,17 @@ export const projectsData = [
       "TypeScript",
 
     ],
-    imageUrl: filmverse,
-    link: "https://filmverse-ink.vercel.app/",
+    imageUrl: dressify,
+    link: "https://dressify-ecommerce-app.vercel.app/",
+  },
+
+  {
+    title: "Fitto",
+    description:
+      "Fitto is a fitness app that provides users with access to thousands of exercises, video demonstrations, and personalized training plans.",
+    tags: ["React.js", "Material UI", "Rapid API"],
+    imageUrl: fitto,
+    link: "https://fitto-fitness.netlify.app/",
   },
   {
     title: "Filmverse",
@@ -74,14 +84,6 @@ export const projectsData = [
     link: "https://filmverse-ink.vercel.app/",
   },
 
-  {
-    title: "Fitto",
-    description:
-      "Fitto is a fitness app that provides users with access to thousands of exercises, video demonstrations, and personalized training plans.",
-    tags: ["React.js", "Material UI", "Rapid API"],
-    imageUrl: fitto,
-    link: "https://fitto-fitness.netlify.app/",
-  },
 ] as const;
 
 export const skillsData = [
