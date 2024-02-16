@@ -1,7 +1,5 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import youtubeCloneImg from "@/public/youtubeClone.png";
-import foodRecipeApp from "@/public/foodRecipeApp.png";
 import fitto from "@/public/fitto.png";
 import filmverse from "@/public/filmverse.png";
 
