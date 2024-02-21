@@ -2,7 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import fitto from "@/public/fitto.png";
 import filmverse from "@/public/filmverse.png";
-import dressify from '@/public/dressify.png'
+import dressify from "@/public/dressify.png";
 
 export const links = [
   {
@@ -54,7 +54,6 @@ export const projectsData = [
       "Redux Toolkit",
       "Framer Motion",
       "TypeScript",
-
     ],
     imageUrl: dressify,
     link: "https://dressify-ecommerce-app.vercel.app/",
@@ -83,7 +82,6 @@ export const projectsData = [
     imageUrl: filmverse,
     link: "https://filmverse-ink.vercel.app/",
   },
-
 ] as const;
 
 export const skillsData = [
