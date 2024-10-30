@@ -1,5 +1,5 @@
 import React from "react";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuBuilding2 } from "react-icons/lu";
 import fitto from "@/public/fitto.png";
 import filmverse from "@/public/filmverse.png";
 import dressify from "@/public/dressify.png";
@@ -33,12 +33,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Self-taught",
-    location: "Kerala, IN",
+    title: "Frontend Developer",
+    location: "Devize, Kerala, IN",
     description:
-      "Learning and exploring Web development to build a career in tech by utalizing free online resources and applying for oppertunity.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023 - Present",
+      "Working as Frontend Developer. Responsible for designing and implementing key frontend features to ensure a seamless and user-friendly experience.",
+    icon: React.createElement(LuBuilding2),
+    date: "3/15/2024 - Present",
   },
 ] as const;
 
@@ -96,4 +96,12 @@ export const skillsData = [
   "Redux",
   "Framer Motion",
   "Material UI",
+  "Magic UI",
+  "Next UI",
+  "Shadcn",
+  "Prisma",
+  "Tanstack Query",
+  "React Hook Form",
+  "Yup",
+  "Zod",
 ] as const;
