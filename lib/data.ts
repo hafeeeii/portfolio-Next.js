@@ -38,26 +38,26 @@ export const experiencesData = [
     description:
       "Working as Frontend Developer. Responsible for designing and implementing key frontend features to ensure a seamless and user-friendly experience.",
     icon: React.createElement(LuBuilding2),
-    date: "3/15/2024 - Present",
+    date: "3/15/2024 - 6/30/2025",
   },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Dressify",
-    description:
-      "Dressify is a Next.js-powered ecommerce redefining online shopping with seamless performance and style",
-    tags: [
-      "Next.js",
-      "Strapi CMS",
-      "Tailwind",
-      "Redux Toolkit",
-      "Framer Motion",
-      "TypeScript",
-    ],
-    imageUrl: dressify,
-    link: "https://dressify-ecommerce-app.vercel.app/",
-  },
+  // {
+  //   title: "Dressify",
+  //   description:
+  //     "Dressify is a Next.js-powered ecommerce redefining online shopping with seamless performance and style",
+  //   tags: [
+  //     "Next.js",
+  //     "Strapi CMS",
+  //     "Tailwind",
+  //     "Redux Toolkit",
+  //     "Framer Motion",
+  //     "TypeScript",
+  //   ],
+  //   imageUrl: dressify,
+  //   link: "https://dressify-ecommerce-app.vercel.app/",
+  // },
 
   {
     title: "Fitto",
@@ -100,7 +100,8 @@ export const skillsData = [
   "Next UI",
   "Shadcn",
   "Prisma",
-  "Tanstack Query",
+  "PostgreSQL",
+  "Tanstack Table",
   "React Hook Form",
   "Yup",
   "Zod",
