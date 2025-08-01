@@ -13,6 +13,7 @@ const Project = ({
   imageUrl,
   tags,
   link,
+  underDevelopment
 }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -28,7 +29,7 @@ const Project = ({
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className=" group mb-3 sm:mb-8 last:mb-0 "
+      className=" group mb-3 sm:mb-8 last:mb-0"
     >
       <a href={link} target="_blank">
         <section className=" bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem] sm:group-even:pl-12 hover:bg-gray-200 transiton rounded-lg dark:bg-white/10  hover:dark:bg-white/20 dark:text-white ">
@@ -55,6 +56,13 @@ const Project = ({
             quality={95}
             className="absolute  hidden  sm:block top-9 -right-[18rem] w-[36.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-[18rem] group-hover:-translate-x-3 group-hover:scale-[1.04] group-hover:-translate-y-3 group-hover:-rotate-2 transition group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-3 "
           />
+
+          {underDevelopment && (
+                <div className="absolute top-1 left-1  h-fit w-fit rounded-lg  px-2 py-1 text-xs bg-yellow-400/10 text-black dark:bg-yellow-500/10 dark:text-white">
+        Development
+      </div>
+          )}
+  
         </section>
       </a>
     </motion.div>
